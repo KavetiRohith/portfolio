@@ -191,6 +191,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Uptycs",
+      companylogo: require("./assets/images/Uptycs.jpg"),
       date: "May 2021 – Jan 2022",
       desc: "Worked on the Osquery Team at Uptycs",
       descBullets: [
