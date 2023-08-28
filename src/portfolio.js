@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an experience of building backend applications with  Python / Go / Javascript and some other cool libraries and frameworks. Currently learning Frontend Dev"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1hWRBKdWhq_sbjlD9-eBu46IzzXcG_d_x/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bswjc18sCUwNNDFLlM7qM6hADcqCzVw2/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -181,11 +181,12 @@ const workExperiences = {
       date: "Apr 2022 – Jun 2023",
       desc: "Worked on Backend Team at Loan2Wheels",
       descBullets: [
-        "Technologies Used: Python, Go, Prometheus, Grafana, Nginx, Openresty, Redis, Postgres, AWS S3, EC2, Websockets",
-        "Built the backend of our Loan Management System in Python",
-        "Worked on our remote logging solution to log every change along with the author-related information",
-        "Used Prometheus and Grafana to get relevent metrics and display dashboards",
-        "Built an in-house event-bus that is being used to stream Loan Information via websockets"
+        "Technologies Used: Python, Go, Prometheus, Grafana, Openresty, Redis, AWS S3, EC2",
+        "Created Loan Management System backend in Python",
+        "Implemented remote logging for change history",
+        "Utilized Prometheus & Grafana to create insightful metric dashboards",
+        "Developed in-house event-bus for real-time Loan Information streaming",
+        "Integrated third-party APIs/services like HDFC Life, IDFY OCR"
       ]
     },
     {
@@ -196,10 +197,11 @@ const workExperiences = {
       desc: "Worked on the Osquery Team at Uptycs",
       descBullets: [
         "Technologies Used: C++, Osquery, Python",
-        "Created a dummy event generator to test event flow to Uptycs cloud, assessing drop rates at various endpoint memory limits",
-        "Developed an interface for container management via osquery(docker, crio and containerd)",
-        "Enhanced/Upstreamed Chrome/Firefox addon detection in Uptycs osquery",
-        "Built package detection for Arch Linux and derivatives, aiding Vulnerability Detection via osquery."
+        "Created event generator to test Uptycs cloud event flow, assess drop rates",
+        "Developed Osquery interface for container management (Docker, CRI-O, containerd)",
+        "Enhanced Chrome/Firefox addon detection in osquery for malicious add-ons",
+        "Integrated ip6tables into osquery",
+        "Built package detection for Arch Linux, aiding Vulnerability Detection"
       ]
     }
   ]
