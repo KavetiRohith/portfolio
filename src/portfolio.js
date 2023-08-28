@@ -378,8 +378,7 @@ const twitterDetails = {
 
 const hireableDetails = {
   isHireable: true,
-  message:
-    "Actively Seeking SDE Internship Oppurtunities starting from Summer 2024"
+  message: "Actively Seeking SDE Internships (Summer 2024)"
 };
 
 export {

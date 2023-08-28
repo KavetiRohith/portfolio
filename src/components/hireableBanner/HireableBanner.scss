@@ -5,9 +5,15 @@
     top: 0;
     background-color: $bannerColor;
     color: $bannerTextColor;
-    padding: 8px;
+    font-size: 20px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     width: 100%;
     z-index: 999;
+
+    @media (max-width: 768px) {
+        font-size: 14px; // Adjust font size for mobile
+        padding: 8px; // Adjust padding for mobile
+    }
 }
