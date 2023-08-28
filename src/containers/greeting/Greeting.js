@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
+import SocialMediaAndContactInfo from "../../components/socialMediaAndContactInfo/SocialMediaAndContactInfo";
 import Button from "../../components/button/Button";
 
 import {illustration, greeting} from "../../portfolio";
@@ -37,7 +37,7 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <SocialMedia />
+              <SocialMediaAndContactInfo />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (

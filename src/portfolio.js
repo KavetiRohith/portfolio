@@ -32,16 +32,17 @@ const greeting = {
 
 // Social Media Links
 
-const socialMediaLinks = {
+const socialMediaLinksAndContactInfo = {
   github: "https://github.com/KavetiRohith",
   linkedin: "https://www.linkedin.com/in/rohithkaveti/",
   gmail: "rohitkaveti@gmail.com",
+  mobileNumber: "+1 530-715-5786",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  // To customize icons and social links, tweak src/components/SocialMediaAndContactInfo
   display: true // Set true to display this section, defaults to false
 };
 
@@ -380,7 +381,7 @@ const isHireable = true; // Set false if you are not looking for a job. Also isH
 export {
   illustration,
   greeting,
-  socialMediaLinks,
+  socialMediaLinksAndContactInfo,
   splashScreen,
   skillsSection,
   educationInfo,
