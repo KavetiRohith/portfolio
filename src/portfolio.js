@@ -51,15 +51,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "SOFTWARE ENGINEER WHO ENJOYS EXPLORING NEW TECHNOLOGIES",
   skills: [
-    emoji(
-      "⚡ Develop highly scalable backend applications"
-    ),
-    emoji(
-      "⚡ Develop interactive frontend applications"
-    ),
-    emoji(
-      "⚡ Currently Exploring Microservices Architecture and Frontend Dev"
-    )
+    emoji("⚡ Develop highly scalable backend applications"),
+    emoji("⚡ Develop interactive frontend applications"),
+    emoji("⚡ Currently Exploring Microservices Architecture and Frontend Dev")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -97,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
+    }
     // {
     //   skillName: "npm",
     //   fontAwesomeClassname: "fab fa-npm"
@@ -206,7 +200,7 @@ const workExperiences = {
         "Enhanced/Upstreamed Chrome/Firefox addon detection in Uptycs osquery",
         "Built package detection for Arch Linux and derivatives, aiding Vulnerability Detection via osquery."
       ]
-    },
+    }
   ]
 };
 
@@ -301,7 +295,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"

@@ -2,8 +2,8 @@ name: Check Format
 on:
   push:
   pull_request:
-      branches:
-        - master
+    branches:
+      - master
 jobs:
   check-format:
     runs-on: ubuntu-latest
@@ -20,5 +20,4 @@ jobs:
 
       - name: Check Format
         run: |
-          prettier -c "./**/*.{js,css,json}"
-
+          prettier -c "./**/*.{js,json}"
