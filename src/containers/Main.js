@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import HireableBanner from "../components/hireableBanner/HireableBanner";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -49,6 +50,7 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
+            <HireableBanner />
             <Header />
             <Greeting />
             <Skills />

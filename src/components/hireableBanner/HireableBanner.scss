@@ -1,0 +1,13 @@
+@import "../../_globalColor";
+
+.hireable-banner {
+    position: sticky;
+    top: 0;
+    background-color: $bannerColor;
+    color: $bannerTextColor;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    z-index: 999;
+}
