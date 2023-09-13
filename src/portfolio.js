@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an experience of building backend applications with  Python / Go / Javascript and some other cool libraries and frameworks. Currently learning Frontend Dev"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bswjc18sCUwNNDFLlM7qM6hADcqCzVw2/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lQdeWKh69xckbf78bm7X7R_42mcNLdCk/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -70,6 +70,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-golang"
     },
     {
+      skillName: "HTML",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -82,7 +90,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -93,30 +101,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
-    // {
-    //   skillName: "html-5",
-    //   fontAwesomeClassname: "fab fa-html5"
-    // },
-    // {
-    //   skillName: "css3",
-    //   fontAwesomeClassname: "fab fa-css3-alt"
-    // },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -178,7 +162,7 @@ const workExperiences = {
       role: "Software Engineer(Backend)",
       company: "Loan2Wheels",
       companylogo: require("./assets/images/Loan2wheels.jpg"),
-      date: "Apr 2022 – Jun 2023",
+      date: "Apr 2022 - Jun 2023",
       desc: "Worked on Backend Team at Loan2Wheels",
       descBullets: [
         "Technologies Used: Python, Go, Prometheus, Grafana, Openresty, Redis, AWS S3, EC2",
@@ -193,7 +177,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Uptycs",
       companylogo: require("./assets/images/Uptycs.jpg"),
-      date: "May 2021 – Jan 2022",
+      date: "May 2021 - Jan 2022",
       desc: "Worked on the Osquery Team at Uptycs",
       descBullets: [
         "Technologies Used: C++, Osquery, Python",
