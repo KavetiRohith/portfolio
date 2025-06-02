@@ -23,10 +23,10 @@ const greeting = {
   username: "Rohith Kaveti",
   title: "Hi all, I'm Rohith",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an experience of building backend applications with  Python / Go / Javascript and some other cool libraries and frameworks. Currently learning Frontend Dev"
+    "A passionate Software Engineer 🚀 with hands-on experience building high-performance backend systems in Go & Python and low-level security tooling in C++. Currently deep-diving into Rust."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1lQdeWKh69xckbf78bm7X7R_42mcNLdCk/view?usp=drive_link", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1QV21wduqrvVM25SZPSUIA92lw_r4h7PnTsVp7kSx974/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,12 +49,16 @@ const socialMediaLinksAndContactInfo = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "SOFTWARE ENGINEER WHO ENJOYS EXPLORING NEW TECHNOLOGIES",
+  title: "What I Do",
+  subTitle: "SOFTWARE ENGINEER WHO LOVES NEW CHALLENGES & TECHNOLOGIES",
   skills: [
-    emoji("⚡ Develop highly scalable backend applications"),
-    emoji("⚡ Develop interactive frontend applications"),
-    emoji("⚡ Currently Exploring Microservices Architecture and Frontend Dev")
+    emoji(
+      "⚡ Developing and maintaining osquery at Uptycs, delivering deep endpoint visibility across Linux, and AIX"
+    ),
+    emoji(
+      "⚡ Writing low-level code in C++ for security instrumentation and system introspection"
+    ),
+    emoji("⚡ Exploring Rust, Distributed Systems, and Microservices")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -156,36 +160,51 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer(Backend)",
-      company: "Loan2Wheels",
-      companylogo: require("./assets/images/Loan2wheels.jpg"),
-      date: "Apr 2022 - Jun 2023",
-      desc: "Worked on Backend Team at Loan2Wheels",
+      role: "Software Engineer Intern - Osquery Team",
+      company: "Uptycs",
+      companylogo: require("./assets/images/Uptycs.jpg"),
+      date: "May 2024 - May 2025",
+      desc: "Worked on Osquery for AIX and Linux",
       descBullets: [
-        "Technologies Used: Python, Go, Prometheus, Grafana, Openresty, Redis, AWS S3, EC2",
-        "Created Loan Management System backend in Python",
-        "Implemented remote logging for change history",
-        "Utilized Prometheus & Grafana to create insightful metric dashboards",
-        "Developed in-house event-bus for real-time Loan Information streaming",
-        "Integrated third-party APIs/services like HDFC Life, IDFY OCR"
+        "Integrated Uptycs Osquery fork for IBM AIX into the principal Osquery repository, created a Jenkins pipeline for CI, eliminating additional developer time spent on the AIX fork and increasing developer efficiency by 70%.",
+        "Implemented heartbeats to ensure the osquery daemon is healthy on AIX using the POSIX shared memory API.",
+        "Built a custom YARA-based file-scanning feature to keep memory growth predictable when scanning very large files.",
+        "Improved socket and user event detection on AIX by leveraging data from the Audit framework.",
+        "Implemented full memory snapshotting on Linux without requiring a kernel module."
       ]
     },
     {
-      role: "Software Engineer",
+      role: "Software Engineer (Backend)",
+      company: "Loan2Wheels",
+      companylogo: require("./assets/images/Loan2wheels.jpg"),
+      date: "Feb 2022 - Jun 2023",
+      desc: "Built and maintained core backend services for the Loan2Wheels platform",
+      descBullets: [
+        "Designed and implemented RESTful APIs for the Loan Management System using FastAPI, PostgreSQL, and SQLAlchemy.",
+        "Cut backend API call volume by 40% through an in-house event bus that streams real-time loan updates to web and mobile clients via WebSockets.",
+        "Integrated third-party services such as HDFC Life, IDFY OCR, and Razorpay for payments and identity verification.",
+        "Created a serverless PDF-to-image conversion service with AWS Lambda, S3, and Go to speed up document processing.",
+        "Deployed Prometheus + Grafana dashboards for proactive monitoring and alerting, ensuring high availability and rapid incident response.",
+        "Automated SSL certificate issuance and renewal for Nginx with Certbot, eliminating downtime and manual effort.",
+        "Established GitHub Actions CI pipelines that lint and unit-test every merge to main, safeguarding code quality."
+      ]
+    },
+    {
+      role: "Software Engineer - Osquery Team",
       company: "Uptycs",
       companylogo: require("./assets/images/Uptycs.jpg"),
       date: "May 2021 - Jan 2022",
-      desc: "Worked on the Osquery Team at Uptycs",
+      desc: "Contributed to osquery development and security features",
       descBullets: [
-        "Technologies Used: C++, Osquery, Python",
-        "Created event generator to test Uptycs cloud event flow, assess drop rates",
-        "Developed Osquery interface for container management (Docker, CRI-O, containerd)",
-        "Enhanced Chrome/Firefox addon detection in osquery for malicious add-ons",
-        "Integrated ip6tables into osquery",
-        "Built package detection for Arch Linux, aiding Vulnerability Detection"
+        "Developed new features and bug fixes in the C++ osquery codebase at Uptycs.",
+        "Built an event generator to stress-test the event flow from the osquery agent to the Uptycs Cloud and measure drop rates.",
+        "Added container runtime awareness (Docker, CRI-O, containerd) to osquery for improved visibility into containerized workloads.",
+        "Enhanced Chrome and Firefox add-on detection logic to better surface malicious extensions.",
+        "Implemented package detection for Arch Linux, extending vulnerability coverage across Arch-based distributions.",
+        "Prototyped process blocking based on YARA signature matching of process executables."
       ]
     }
   ]
