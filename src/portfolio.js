@@ -177,7 +177,20 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer (Backend)",
+      role: "Research Assistant - Backend Team",
+      company: "CSU Chico",
+      companylogo: require("./assets/images/csuc-wildcat.jpg"),
+      date: "Jan 2024 - May 2025",
+      desc: "Developed the Backend for an educational platform",
+      descBullets: [
+        "Developed backend APIs for an educational platform using Node.js, TypeScript, Express.js, and Postgres.",
+        "Containerized the application enabling consistent development environments using Docker, and Docker Compose.",
+        "Implemented Google OAuth with Passport.js, enhancing user authentication and access management.",
+        "Created a code execution engine supporting multiple programming languages (C++, Java, Python) for submission evaluations.",
+      ]
+    },
+    {
+      role: "Software Engineer - Backend Team",
       company: "Loan2Wheels",
       companylogo: require("./assets/images/Loan2wheels.jpg"),
       date: "Feb 2022 - Jun 2023",
@@ -382,7 +395,7 @@ const twitterDetails = {
 };
 
 const hireableDetails = {
-  isHireable: true,
+  isHireable: false,
   message: "Actively Seeking SDE Internships (Summer 2024)"
 };
 
